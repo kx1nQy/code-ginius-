@@ -16,6 +16,11 @@ def send_welcome(message):
 def send_welcome(message):
     bot.reply_to(message, 'Че тупой шо ль иди нахуй пень ебаный')
 
+@bot.message_handler(content_types=['text']) # бот принемает только текстовы сообшения
+
+def text(message): # создал функуию    if message.text == "привет": # если пришлют привет
+        bot.send_message(message.from_user.id, 'Пошел нахуй хуеглот!!!') # то идут нахуй
+
 
 # распознования остального как обычный текст
 @bot.message_handler(func=lambda message: True)
@@ -24,3 +29,4 @@ def echo_message(message):
 
 
 bot.infinity_polling()
+
