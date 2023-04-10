@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/pythonTeleBot.iml" filepath="$PROJECT_DIR$/.idea/pythonTeleBot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/tbot.iml" filepath="$PROJECT_DIR$/.idea/tbot.iml" />
     </modules>
   </component>
 </project>
